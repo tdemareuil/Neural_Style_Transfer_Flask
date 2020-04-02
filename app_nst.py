@@ -26,8 +26,8 @@ def upload_file():
 		
 	content.save(os.path.join(app.config['UPLOAD_FOLDER'], 'content.jpg'))
 		
-	content = load_image('./static/image/upload/content.jpg') # load_image is from model_nst.py
-	style = load_image('./static/image/s'+ style+'.jpg', shape=content.shape[-2:]) # resize style to match content
+	content = load_image('./static/images/upload/content.jpg') # load_image is from model_nst.py
+	style = load_image('./static/images/s'+ style+'.jpg', shape=content.shape[-2:]) # resize style to match content
 
 	vgg = model() # model is from model_nst.py
 	target = stylize(content, style, vgg) # stylize is from model_nst.py
