@@ -2,9 +2,9 @@
 
 In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on GPU with Colab or Kaggle.
 
-> Neural Style Transfer (NST) is a deep learning method that allows you to **apply a new artistic style to any image**, using neural networks. The algorithm takes any image as an input, transfers the artistic style from another chosen image, and outputs a transformed version.
+> Neural Style Transfer (NST) is a deep learning method that allows you to **apply a new artistic style to any image**, using neural networks. The algorithm takes any image as input, transfers the artistic style from another chosen image, and outputs a transformed version.
 >
-> The idea is that it is possible to use a pre-trained convolutional neural network (here, [VGG19](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/), trained originally for image recognition) in order to separate the style representation and the content representation from an image. You can then define a dual loss function which corresponds (1) to the difference in style between 2 images (the 'input' image and the 'style' image), and (2) to the difference in content between the 'input' and the 'output' images. When you minimize this function with gradient descent, you transfer style from one image to the other, while making sure content isn't lost in the process.
+> The idea is that it is possible to use a pre-trained convolutional neural network (here, [VGG19](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/), trained originally for image recognition) to separate the style representation and the content representation from an image. You can then define a dual loss function which corresponds (1) to the difference in style between 2 images (the 'input' and the 'style' images), and (2) to the difference in content between the 'input' and the 'output' images. When you minimize this function with gradient descent, you transfer style from one image to the other, while making sure content isn't lost in the process.
 
 You can download/clone the repository and run the app locally. Just `cd` into the right folder, run `python app_nst.py` in cmd, and go to `localhost:5000` in your browser.
 
