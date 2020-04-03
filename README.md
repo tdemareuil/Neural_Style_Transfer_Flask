@@ -40,7 +40,7 @@ Input | Style | Output
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s4.jpg" width="350" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/s4.jpg" height="350" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -54,7 +54,7 @@ Input | Style | Output
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s1.jpg" width="350" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/s1.jpg" height="350" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
