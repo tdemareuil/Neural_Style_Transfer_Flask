@@ -14,6 +14,34 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 
 ### Examples of results
 
+* Van Gogh painting style (Pablo Picasso, [_Portrait de l'artiste_](https://www.musee-orsay.fr/fr/collections/oeuvres-commentees/peinture/commentaire_id/self-portrait-2990.html?cHash=680aadb7da), 1889):
+
+<table>
+<tr>
+  <td align='center' colspan=2> <strong> Style
+<tr>
+  <td align='center' colspan=2> <img src="static/images/s1.jpg" height="325" title="Style"> 
+<tr>
+  <th>Input <th> Output
+<tr>
+  <td> <img src="static/images/inputs/input4.jpg" width="350" title="Input">
+  <td> <img src="static/images/outputs/output4.png" width="350" title="Output">
+</table>
+
+* Cubist painting style (Pablo Picasso, [_Jeune fille à la mandoline_](https://www.moma.org/collection/works/80430), 1910):
+
+<table>
+<tr>
+  <td align='center' colspan=2> <strong> Style
+<tr>
+  <td align='center' colspan=2> <img src="static/images/s4.jpg" height="325" title="Style"> 
+<tr>
+  <th>Input <th> Output
+<tr>
+  <td> <img src="static/images/inputs/input3.jpg" width="350" title="Input">
+  <td> <img src="static/images/outputs/output3.png" width="350" title="Output">
+</table>
+
 * Pointillist painting style (Paul Signac, [_La Baie (Saint-Tropez)_](https://www.christies.com/lotfinder/Lot/paul-signac-1863-1935-la-baie-saint-tropez-6202464-details.aspx), 1907):
 
 <table>
@@ -33,34 +61,6 @@ Input | Style | Output
 :---:|:---:|:---:
 <img src="static/image/outputs/IMG_20170618_005324 - copie.jpg" width="400" title="Input"> | <img src="static/image/outputs/s5.jpg" width="400" title="Style"> | <img src="static/image/outputs/output.png" width="400" title="Output">
 -->
-
-* Cubist painting style (Pablo Picasso, [_Jeune fille à la mandoline_](https://www.moma.org/collection/works/80430), 1910):
-
-<table>
-<tr>
-  <td align='center' colspan=2> <strong> Style
-<tr>
-  <td align='center' colspan=2> <img src="static/images/s4.jpg" height="350" title="Style"> 
-<tr>
-  <th>Input <th> Output
-<tr>
-  <td> <img src="static/images/inputs/input3.jpg" width="350" title="Input">
-  <td> <img src="static/images/outputs/output3.png" width="350" title="Output">
-</table>
-
-* Van Gogh painting style (Pablo Picasso, [_Portrait de l'artiste_](https://www.musee-orsay.fr/fr/collections/oeuvres-commentees/peinture/commentaire_id/self-portrait-2990.html?cHash=680aadb7da), 1889):
-
-<table>
-<tr>
-  <td align='center' colspan=2> <strong> Style
-<tr>
-  <td align='center' colspan=2> <img src="static/images/s1.jpg" height="350" title="Style"> 
-<tr>
-  <th>Input <th> Output
-<tr>
-  <td> <img src="static/images/inputs/input4.jpg" width="350" title="Input">
-  <td> <img src="static/images/outputs/output4.png" width="350" title="Output">
-</table>
 
 ---
 
