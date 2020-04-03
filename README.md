@@ -2,7 +2,7 @@
 
 In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on GPU with Colab or Kaggle.
 
-> Neural Style Transfer (NST) is a deep learning method that allows you to **take an image and to apply a new artistic style to it**. The algorithm takes any image as an input, applies to it the artistic style from another chosen image, and outputs a transformed version, with the same content but a new style. 
+> Neural Style Transfer (NST) is a deep learning method that allows you to **apply a new artistic style to any image**, using neural networks. The algorithm takes any image as an input, transfers the artistic style from another chosen image, and outputs a transformed version.
 >
 > The idea is that it is possible to use a pre-trained convolutional neural network (here, [VGG19](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/), trained originally for image recognition) in order to separate the style representation and the content representation from an image. You can then define a dual loss function which corresponds (1) to the difference in style between 2 images (the 'input' image and the 'style' image), and (2) to the difference in content between the 'input' and the 'output' images. When you minimize this function with gradient descent, you transfer style from one image to the other, while making sure content isn't lost in the process.
 
@@ -48,12 +48,12 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s5.jpg" width="350" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/s5.jpg" width="340" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
-  <td> <img src="static/images/inputs/input1.jpg" width="350" title="Input">
-  <td> <img src="static/images/outputs/output1.png" width="350" title="Output">
+  <td> <img src="static/images/inputs/input1.jpg" width="340" title="Input">
+  <td> <img src="static/images/outputs/output1.png" width="340" title="Output">
 </table>
 
 <!-- Other way to build a table (Github Flavored Markdown, less flexible):
@@ -67,7 +67,7 @@ Input | Style | Output
 ### Next steps
 
 By order of importance:  
-* tweak the model to improve output quality (with [2](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive)
+* tweak the model to improve output quality (with [[2]](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive)
 * improve the app by adding a computation progress bar and the possibilty to upload your own style images 
 * explore cloud server possibilities to potentially put the app online, as in this [blog post](https://blog.usejournal.com/how-i-built-and-deployed-my-first-machine-learning-project-4c75d1effe4e)
 * if I really, really have time, explore other ideas such as building a [mobile app](https://heartbeat.fritz.ai/style-transfer-on-ios-using-convolutional-neural-networks-616fd748ece4) around the model or [processing video](https://towardsdatascience.com/real-time-video-neural-style-transfer-9f6f84590832).
