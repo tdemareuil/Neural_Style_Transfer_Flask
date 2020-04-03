@@ -1,6 +1,6 @@
 # Neural_Style_Transfer_Flask
 
-In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on Colab.
+In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on GPU with Colab or Kaggle.
 
 > Neural Style Transfer (NST) is a deep learning method that allows you to **take an image and to apply a new artistic style to it**. The algorithm takes any image as an input, applies to it the artistic style from another chosen image, and outputs a transformed version, with the same content but a new style. 
 >
@@ -14,7 +14,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 
 ### Examples of results
 
-* Van Gogh painting style (Pablo Picasso, [_Portrait de l'artiste_](https://www.musee-orsay.fr/fr/collections/oeuvres-commentees/peinture/commentaire_id/self-portrait-2990.html?cHash=680aadb7da), 1889):
+* Van Gogh painting style (Vincent van Gogh, [_Portrait de l'artiste_](https://www.musee-orsay.fr/fr/collections/oeuvres-commentees/peinture/commentaire_id/self-portrait-2990.html?cHash=680aadb7da), 1889):
 
 <table>
 <tr>
