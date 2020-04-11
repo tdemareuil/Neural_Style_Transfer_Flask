@@ -20,7 +20,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s1.jpg" height="325" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s1.jpg" height="325" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -34,7 +34,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s4.jpg" height="325" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s4.jpg" height="325" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -48,7 +48,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s5.jpg" width="340" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s5.jpg" width="340" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
