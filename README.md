@@ -20,7 +20,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s1.jpg" height="325" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s1.jpg" height="325" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -34,7 +34,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s4.jpg" height="325" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s4.jpg" height="325" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -48,7 +48,7 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <td align='center' colspan=2> <strong> Style
 <tr>
-  <td align='center' colspan=2> <img src="static/images/s5.jpg" width="340" title="Style"> 
+  <td align='center' colspan=2> <img src="static/images/styles/s5.jpg" width="340" title="Style"> 
 <tr>
   <th>Input <th> Output
 <tr>
@@ -67,7 +67,7 @@ Input | Style | Output
 ### Next steps
 
 By order of importance:  
-* tweak the model to improve output quality (with [[2]](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive)
+* tweak the model to improve output quality (see [[2]](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive)
 * improve the app by adding a computation progress bar and the possibilty to upload your own style images 
-* explore cloud server possibilities to potentially put the app online, as in this [blog post](https://blog.usejournal.com/how-i-built-and-deployed-my-first-machine-learning-project-4c75d1effe4e)
+* explore cloud server possibilities to potentially put the app online (see this [blog post](https://blog.usejournal.com/how-i-built-and-deployed-my-first-machine-learning-project-4c75d1effe4e), and heroku or tensorflow.js possibilities)
 * if I really, really have time, explore other ideas such as building a [mobile app](https://heartbeat.fritz.ai/style-transfer-on-ios-using-convolutional-neural-networks-616fd748ece4) around the model or [processing video](https://towardsdatascience.com/real-time-video-neural-style-transfer-9f6f84590832).
