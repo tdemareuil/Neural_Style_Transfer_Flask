@@ -52,8 +52,8 @@ The app and models were inspired by several blog posts ([1](https://medium.com/@
 <tr>
   <th>Input <th> Output
 <tr>
-  <td> <img src="static/images/inputs/input1.jpg" width="340" title="Input">
-  <td> <img src="static/images/outputs/output1.png" width="340" title="Output">
+  <td> <img src="static/images/inputs/input2.jpg" width="340" title="Input">
+  <td> <img src="static/images/outputs/output2.png" width="340" title="Output">
 </table>
 
 <!-- Other way to build a table (Github Flavored Markdown, less flexible):
