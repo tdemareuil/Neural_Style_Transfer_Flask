@@ -5,7 +5,6 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from model_nst import load_image, model, stylize, im_convert
 
-
 app = Flask(__name__)
 UPLOAD_FOLDER = './static/image/upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -41,5 +40,5 @@ if __name__ =="__main__": # the app will run only if it's called as main, i.e. n
 	app.run(debug=True) # run starts the development (local) server
 
 # Need to accelerate computation:
-# could we serialize a pre-trained model with pickle and charge it on top op this module?
+# could we serialize a pre-trained model with pickle and charge it on top of this module?
 # could we have it run on a GPU? Colab, databricks, other?
