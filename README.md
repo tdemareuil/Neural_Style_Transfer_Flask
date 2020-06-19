@@ -2,13 +2,13 @@
 
 In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on GPU with Colab or Kaggle.
 
+The app and models are a simple learning project, to practice Flask and deep learning. Code is built upon several blog posts ([1](https://medium.com/@artistritul1995/style-transfer-using-deep-nural-network-and-pytorch-3fae1c2dd73e), [2](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489), [3](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html), [4](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee), [5](https://medium.com/@shwetaka1988/a-complete-step-wise-guide-on-neural-style-transfer-9f60b22b4f75)), which themselves were based on the original NST research article _"A Neural Algorithm of Artistic Style"_ by [Gatys _et al._](https://arxiv.org/abs/1508.06576) (2015). I do not claim ownership of any of the code in this repository and give credits to the original authors.
+
 > Neural Style Transfer (NST) is a deep learning method that allows you to **apply a new artistic style to any image**, using neural networks. The algorithm takes any image as input, transfers the artistic style from another chosen image, and outputs a transformed version.
 >
 > The idea is that it is possible to use a pre-trained convolutional neural network (here, [VGG19](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/), trained originally for image recognition) to separate the style representation and the content representation from an image. You can then define a dual loss function which corresponds (1) to the difference in style between 2 images (the 'input' and the 'style' images), and (2) to the difference in content between the 'input' and the 'output' images. When you minimize this function with gradient descent, you transfer style from one image to the other, while making sure content isn't lost in the process.
 
 You can download/clone the repository and run the app locally. Just `cd` into the right folder, run `python app_nst.py` in cmd, and go to `localhost:5000` in your browser.
-
-The app and models were inspired by several blog posts ([1](https://medium.com/@artistritul1995/style-transfer-using-deep-nural-network-and-pytorch-3fae1c2dd73e), [2](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489), [3](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html), [4](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee), [5](https://medium.com/@shwetaka1988/a-complete-step-wise-guide-on-neural-style-transfer-9f60b22b4f75)), which themselves were based on the original NST research article _"A Neural Algorithm of Artistic Style"_ by [Gatys _et al._](https://arxiv.org/abs/1508.06576) (2015).
 
 ---
 
