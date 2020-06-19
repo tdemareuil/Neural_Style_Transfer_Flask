@@ -67,7 +67,7 @@ Input | Style | Output
 ### Next steps
 
 By order of importance:  
-* tweak the model to improve output quality (see [[2]](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive)
+* change the model to improve output quality (see [[2]](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)) and computation speed (for now, running it without GPU is quite prohibitive) - more recent options are the Abritrary Style Transfer model ([paper](https://arxiv.org/pdf/1703.06868.pdf)) and solutions using GANs ([CycleGAN](https://arxiv.org/pdf/1703.10593.pdf), and another [paper](https://arxiv.org/pdf/1812.04948.pdf)).
 * improve the app by adding a computation progress bar and the possibilty to upload your own style images 
 * explore cloud server possibilities to potentially put the app online (see this [blog post](https://blog.usejournal.com/how-i-built-and-deployed-my-first-machine-learning-project-4c75d1effe4e), and heroku or tensorflow.js possibilities)
 * if I really, really have time, explore other ideas such as building a [mobile app](https://heartbeat.fritz.ai/style-transfer-on-ios-using-convolutional-neural-networks-616fd748ece4) around the model or [processing video](https://towardsdatascience.com/real-time-video-neural-style-transfer-9f6f84590832).
