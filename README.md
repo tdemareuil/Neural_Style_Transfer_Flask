@@ -1,4 +1,4 @@
-# Neural_Style_Transfer_Flask
+# neural-style-transfer-flask
 
 In this repository you'll find a simple app built with `flask` to perform NST using `pytorch`. You'll also find a notebook version of the model to run it on GPU with Colab or Kaggle.
 
